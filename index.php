@@ -18,27 +18,35 @@
             <h1>Hello</h1>
         </div>
 
-        <div class="row">
-            <di
-            <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg"
-                aria-label=".form-control-lg example">
-            <input class="form-control form-control-lg" type="password" placeholder=".form-control-lg"
-                aria-label=".form-control-lg example">
+        <div class="row mt-5">
+            <div class="col">
+                <input id="username" class="form-control form-control-lg" type="text" placeholder="User name"
+                    aria-label=".form-control-lg example">
+            </div>
+            <div class="col">
+                <input id="pass" class="form-control form-control-lg" type="password" placeholder="Password"
+                    aria-label=".form-control-lg example">
+
+            </div>
 
         </div>
 
         <div class="row mt-5">
-            <button class="btn btn-primary">login</button>
+            <button id="submit" class="btn btn-primary">login</button>
         </div>
 
-
-
     </main>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
     <script>
+        let btn = document.getElementById("submit");
+        btn.addEventListener('click', function () {
+            alert('hello')
+        });
 
     </script>
 
