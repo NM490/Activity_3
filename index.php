@@ -9,13 +9,13 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="d-flex align-items-center py-4">
     <?php include './php/component/_navbar.php'; ?>
-    <main class="container mt-5 rounded p-5 bg-body-primary">
+    <main class="container w-100 m-auto my-5 p-5 bg-body-primary">
         <div class="row text-center">
             <h1>Hello</h1>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5 ">
             <input id="username" class="form-control form-control-lg" type="text" placeholder="User name"
                 aria-label=".form-control-lg example">
 
